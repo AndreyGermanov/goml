@@ -106,7 +106,7 @@ func SliceIndex(slice []interface{}, v interface{}) int {
 	return -1
 }
 
-func main() {
+func main4() {
 	wd, _ := os.Getwd()
 	trainFile, _ := os.OpenFile(wd+"/db/train.csv", os.O_RDONLY, os.ModePerm)
 	frame := DataFrame{
